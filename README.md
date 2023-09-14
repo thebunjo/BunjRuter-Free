@@ -5,7 +5,7 @@
 ## How to Install
 
 # Kali Linux / Parrot OS
-
+'''
 apt update &&
 apt install ruby &&
 apt install git &&
@@ -14,7 +14,7 @@ cd BunjruterV1.1 &&
 gem install bundler &&
 bundle install &&
 ruby bunjruter_main.rb
-
+'''
 
 # Windows
 
