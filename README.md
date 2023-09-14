@@ -1,9 +1,32 @@
 # BunjruterV1.1
+
  Bunjruter - Multi-Tool GUI Application
+
+- How to install ? 
+
+- Kali Linux / Parrot OS
+
+apt update
+apt install ruby
+apt install git
+git clone https://github.com/BunjoThe/BunjruterV1.1.git
+cd BunjruterV1.1
+gem install bundler
+bundle install
+ruby bunjruter_main.rb
+
+- Windows
+
+Install ruby : https://rubyinstaller.org/downloads/
+Install Bunjruter : https://github.com/BunjoThe/BunjruterV1.1.git
+cd BunjruterV1.1
+gem install bundler
+bundle install
+ruby.exe bunjruter_main.rb
 
 Project Description: Bunjruter - Multi-Tool GUI Application
 
-This project defines a Python-based graphical user interface (GUI) application named "Bunjruter." The application offers various user tools and functions to facilitate different data processing and security tasks. Here are the key components and functions of the project:
+This project defines a Ruby-based graphical user interface (GUI) application named "Bunjruter." The application offers various user tools and functions to facilitate different data processing and security tasks. Here are the key components and functions of the project:
 
 Main Window and Background: The application features a main window. A visual background has been added to the window, providing users with a pleasant visual experience.
 
@@ -17,10 +40,8 @@ Password Generator: Users can create random passwords by selecting the password 
 
 Base 64 Function: Users can convert text to and from Base64 format. This function is useful for encoding or decoding text when encryption is required.
 
-Dictionary Attack: Users can perform a dictionary attack by reading password attempts from a text file and simulating keystrokes. This feature is useful for security testing or recovering forgotten passwords.
-
 Info Page: This feature displays text that explains the purpose and usage of the application. It also emphasizes that the project is intended for educational purposes.
 
 This project aims to provide users with various tools and options to address different data processing and security scenarios. Users can perform fundamental tasks such as text encryption, hash generation, password creation, and security testing. The project's source code is open-source and can be further developed or customized.
 
-#hash_generator #hash #python #base64 #dictionary_attack #ftp_brute_force #brute_force #password generator
+#hash_generator #hash #ruby #base64 #dictionary_attack #ssh_brute_force #brute_force #password_generator
