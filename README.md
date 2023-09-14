@@ -4,7 +4,7 @@
 
 ## How to Install
 
-### Kali Linux / Parrot OS
+- Kali Linux / Parrot OS
 
 ```bash
 apt update
@@ -18,7 +18,7 @@ ruby bunjruter_main.rb
 '''
 
 
-### Kali Linux / Parrot OS
+- Windows
 
 ```bash
 Install ruby : https://rubyinstaller.org/downloads/
