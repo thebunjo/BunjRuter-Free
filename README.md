@@ -4,7 +4,7 @@
 
 ## How to Install
 
-Kali Linux / Parrot OS
+# Kali Linux / Parrot OS
 
 apt update
 apt install ruby
@@ -16,7 +16,7 @@ bundle install
 ruby bunjruter_main.rb
 
 
-Windows
+# Windows
 
 Install ruby : https://rubyinstaller.org/downloads/
 Install Bunjruter : https://github.com/BunjoThe/BunjruterV1.1.git
