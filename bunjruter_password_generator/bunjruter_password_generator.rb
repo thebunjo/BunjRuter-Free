@@ -9,7 +9,7 @@ custom_font = TkFont.new(family: font_name, size: font_size)
 
 root = TkRoot.new
 root.geometry("270x200")
-root.title("Bunjruter - Base64 Encoder")
+root.title("Bunjruter - Password Generator")
 root.resizable(false, false)
 root.iconphoto(root_icon)
 
