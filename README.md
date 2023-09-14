@@ -6,23 +6,23 @@
 
 - Kali Linux / Parrot OS
 
--- apt update
-apt install ruby
-apt install git
-git clone https://github.com/BunjoThe/BunjruterV1.1.git
-cd BunjruterV1.1
-gem install bundler
-bundle install
-ruby bunjruter_main.rb
+- apt update
+- apt install ruby
+- apt install git
+- git clone https://github.com/BunjoThe/BunjruterV1.1.git
+- cd BunjruterV1.1
+- gem install bundler
+- bundle install
+- ruby bunjruter_main.rb
 
 - Windows
 
-Install ruby : https://rubyinstaller.org/downloads/
-Install Bunjruter : https://github.com/BunjoThe/BunjruterV1.1.git
-cd BunjruterV1.1
-gem install bundler
-bundle install
-ruby.exe bunjruter_main.rb
+- Install ruby : https://rubyinstaller.org/downloads/
+- Install Bunjruter : https://github.com/BunjoThe/BunjruterV1.1.git
+- cd BunjruterV1.1
+- gem install bundler
+- bundle install
+- ruby.exe bunjruter_main.rb
 
 Project Description: Bunjruter - Multi-Tool GUI Application
 
