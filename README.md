@@ -41,6 +41,12 @@ Password Generator: Users can create random passwords by selecting the password 
 
 Base 64 Function: Users can convert text to and from Base64 format. This function is useful for encoding or decoding text when encryption is required.
 
+SSH Cracker: It performs a password attack on the specified server with the entered username and password.
+
+Telnet Cracker: It performs a password attack on the specified server with the entered username and password.
+
+Hash Cracker: Encrypts the given word list and compares it with the entered ciphertext.
+
 Info Page: This feature displays text that explains the purpose and usage of the application. It also emphasizes that the project is intended for educational purposes.
 
 This project aims to provide users with various tools and options to address different data processing and security scenarios. Users can perform fundamental tasks such as text encryption, hash generation, password creation, and security testing. The project's source code is open-source and can be further developed or customized.
