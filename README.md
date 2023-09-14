@@ -6,7 +6,7 @@
 
 # Kali Linux / Parrot OS
 
-'''markdown
+'''bash
 apt update 
 apt install ruby &&
 apt install git &&
