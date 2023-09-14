@@ -6,7 +6,7 @@
 
 - Kali Linux / Parrot OS
 
-apt update
+-- apt update
 apt install ruby
 apt install git
 git clone https://github.com/BunjoThe/BunjruterV1.1.git
