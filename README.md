@@ -18,14 +18,16 @@ ruby bunjruter_main.rb
 '''
 
 
-- Windows
+### Kali Linux / Parrot OS
 
+```bash
 Install ruby : https://rubyinstaller.org/downloads/
 Install Bunjruter : https://github.com/BunjoThe/BunjruterV1.1.git
 cd BunjruterV1.1
 gem install bundler
 bundle install
 ruby.exe bunjruter_main.rb
+'''
 
 Project Description: Bunjruter - Multi-Tool GUI Application
 
