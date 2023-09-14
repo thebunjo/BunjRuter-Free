@@ -1,0 +1,1 @@
+./bunjruter_hash_cracker/wordlist.txt
