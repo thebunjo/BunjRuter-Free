@@ -47,6 +47,14 @@ Telnet Cracker: It performs a password attack on the specified server with the e
 
 Hash Cracker: Encrypts the given word list and compares it with the entered ciphertext.
 
+Host To IP: Gets the IP address from the entered host.
+
+Whois: Collects information from the entered host
+
+Port Scanner: Scans open TCP ports of the entered target
+
+Banner Grabber: Retrieves banner information from the entered target
+
 Info Page: This feature displays text that explains the purpose and usage of the application. It also emphasizes that the project is intended for educational purposes.
 
 This project aims to provide users with various tools and options to address different data processing and security scenarios. Users can perform fundamental tasks such as text encryption, hash generation, password creation, and security testing. The project's source code is open-source and can be further developed or customized.
