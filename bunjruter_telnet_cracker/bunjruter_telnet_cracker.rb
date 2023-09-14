@@ -107,7 +107,7 @@ passlist_location_entry.insert(0, './bunjruter_telnet_cracker/wordlist.txt')
 
 # Start Attack Button
 attack_button = TkButton.new(root) do
-  text "Start FTP Cracker"
+  text "Start Telnet Cracker"
   fg "white"
   bg "#A30039"
   place(x: 70, y: 420)
