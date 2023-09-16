@@ -9,14 +9,15 @@
 
 # Kali Linux / Parrot OS
 
-apt update ||
-apt install ruby ||
-apt install git ||
+sudo apt update ||
+sudo apt install ruby ||
+sudo apt install git ||
 git clone https://github.com/BunjoThe/BunjruterV1.1.git ||
 cd BunjruterV1.1 ||
-gem install bundler ||
+sudo gem install bundler ||
 bundle install ||
-gem install tk -- --with-tcltkversion=8.6 \
+sudo apt-get install tcl-dev tk-dev ||
+sudo gem install tk -- --with-tcltkversion=8.6 \
 --with-tcl-lib=/usr/lib/x86_64-linux-gnu \
 --with-tk-lib=/usr/lib/x86_64-linux-gnu \
 --with-tcl-include=/usr/include/tcl8.6 \
