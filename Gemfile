@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'tk'
 gem 'whois'
 gem 'colorize'
 gem 'net-telnet'
