@@ -9,13 +9,19 @@
 
 # Kali Linux / Parrot OS
 
-apt update 
-apt install ruby &&
-apt install git &&
-git clone https://github.com/BunjoThe/BunjruterV1.1.git &&
-cd BunjruterV1.1 &&
-gem install bundler &&
-bundle install &&
+apt update ||
+apt install ruby ||
+apt install git ||
+git clone https://github.com/BunjoThe/BunjruterV1.1.git ||
+cd BunjruterV1.1 ||
+gem install bundler ||
+bundle install ||
+gem install tk -- --with-tcltkversion=8.6 \
+--with-tcl-lib=/usr/lib/x86_64-linux-gnu \
+--with-tk-lib=/usr/lib/x86_64-linux-gnu \
+--with-tcl-include=/usr/include/tcl8.6 \
+--with-tk-include=/usr/include/tcl8.6 \
+--enable-pthread ||
 ruby bunjruter_main.rb
 
 
