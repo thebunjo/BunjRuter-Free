@@ -7,22 +7,12 @@
 
 ## How to Install
 
-# Kali Linux / Parrot OS
+# For Debian Systems
 
-sudo apt update &&
-sudo apt install ruby &&
-sudo apt install git &&
-git clone https://github.com/BunjoThe/BunjruterV1.1.git &&
-cd BunjruterV1.1 &&
-sudo gem install bundler &&
-bundle install &&
-sudo apt-get install tcl-dev tk-dev &&
-sudo gem install tk -- --with-tcltkversion=8.6 --with-tcl-lib=/usr/lib/x86_64-linux-gnu --with-tk-lib=/usr/lib/x86_64-linux-gnu --with-tcl-include=/usr/include/tcl8.6 --with-tk-include=/usr/include/tcl8.6 --enable-pthread &&
-sudo chmod +x bunjruter_main.rb &&
-ruby bunjruter_main.rb
+chmod +x install.sh
+./install.sh
 
-
-# Windows
+# For Windows Systems
 
 Install ruby : https://rubyinstaller.org/downloads/
 Install Bunjruter : https://github.com/BunjoThe/BunjruterV1.1.git
