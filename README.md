@@ -9,7 +9,7 @@
 
 # For Debian Systems
 
-chmod +x install.sh
+chmod +x install.sh &&
 ./install.sh
 
 # For Windows Systems
